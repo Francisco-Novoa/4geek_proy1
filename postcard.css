@@ -1,21 +1,27 @@
 body{
+    background-color: black;
+}
+#wrapper{
     height: 500px;
     width: 500px;
+    display: block;
+    margin: auto;
 }
 
 #header {
     width: 100%;
-    height: 80px;
+    height: 16%;
     display: block;
 }
 
 #bottom{
     text-align: center;
+    background-color: white;
 
 }
 h1{
     color: grey;
-    padding-top: 10px;
+    padding-top: 0.1%;
     font-family: "Courier New";
 }
 p{
@@ -24,21 +30,24 @@ p{
 }
 
 .column {
+    background-color: white;
     float: left;
     width: 50%;
-    height: 200px;
+    height: 40%;
 }
 
 img{
     float: right;
-    height: 10%;
-    width: 10%;
-    padding-right:20px;
+    height: 75%;
+    width: 17%;
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 button{
     font-family: 'Courier New', Courier, monospace;
     background-color: lightgrey;
+    margin-bottom: 2px;
 }
 
 input{
@@ -47,7 +56,7 @@ input{
     margin-top:10px;
     border-width: 12px;
     width: 225px;
-    height: 25px;
+    height: 5%5cm
     margin: auto;
     border: transparent;
     background-color: transparent;
